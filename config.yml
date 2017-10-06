@@ -1,0 +1,21 @@
+expbank-menu-title: '&aEXPBank'
+
+info-item:
+  id: 'BOOK'
+  durability: 0
+  displayname: '&7Stored XP:'
+
+deposit-item:
+  id: 'STAINED_GLASS_PANE'
+  durability: 13
+  displayname: '&aDeposit XP'
+  
+withdraw-item:
+  id: 'STAINED_GLASS_PANE'
+  durability: 14
+  displayname: '&cWithdraw XP'
+
+give-item:
+  id: 'STAINED_GLASS_PANE'
+  durability: 11
+  displayname: '&9Give XP'
