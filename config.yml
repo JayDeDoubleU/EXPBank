@@ -1,21 +1,37 @@
-expbank-menu-title: '&aEXPBank'
+##  Config for EXPBank v2
+sign-top-line: '[&aEXP-Bank&0]'
+
+expbank-title: '&9EXPBank'
 
 info-item:
-  id: 'BOOK'
+  id: BOOK
   durability: 0
-  displayname: '&7Stored XP:'
-
+  displayname: '&7Stored XP Info:'
 deposit-item:
-  id: 'STAINED_GLASS_PANE'
+  id: CONCRETE
   durability: 13
   displayname: '&aDeposit XP'
   
 withdraw-item:
-  id: 'STAINED_GLASS_PANE'
+  id: CONCRETE
   durability: 14
   displayname: '&cWithdraw XP'
 
+##  Approx amount in levels to withdraw when player normal-clicks.
+##  When player shift-clicks it withdraws all their xp, this setting does not affect that.
+
+withdraw-amount: 5    
+  
 give-item:
-  id: 'STAINED_GLASS_PANE'
+  id: CONCRETE
   durability: 11
   displayname: '&9Give XP'
+  
+##  Change the type of XP given here
+##  give-type: 'points'
+##  give-type: 'bottles'
+##  When set to bottles, the EXP cost to give a bottle is 7 points each
+##  This is because the possible XP return from a bottle o enchanting is
+##  between 3 to 11 points, and 7 being the middle of that.
+
+give-type: 'points'
