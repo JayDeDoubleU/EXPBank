@@ -1,56 +1,46 @@
-#   Messages config for EXPBank
-#
-#   Edit the messages to fit your needs
-#   DO NOT change the identifer keys, or you will cause issues.
-#   If you cannot fix the lines, you can delete the file and
-#   reload or start the server to generate a new messages.yml file.
-
-sign-make-noperm: '&cYou do not have permission to make an EXPBank sign.'
-sign-use-noperm: '&cYou do not have permission to use a EXPBank sign.'
-sign-break: '&cTo remove a EXPBank sign, use /xpremove while looking at the sign'
+##  Message file for EXPbankV2
+makesign-noperm: '&cYou do not have permission to make an EXPBank sign.'
+breaksign: '&cTo remove a EXPBank sign, use /xpremove while looking at the sign'
+usesign-noperm: '&cYou do not have permission to use a EXPBank sign.'
 command-use-noperm: '&cYou do not have permission to use the EXPBank command.'
+breaksign-noperm: '&cYou do not have permission to use this command.'
+not-a-xp-sign: '&cThis is not a EXPBank sign'
+
 depositxp-noperm: '&cYou do not have permission to deposit XP.'
 withdrawxp-noperm: '&cYou do not have permission to withdraw XP.'
 givexp-noperm: '&cYou do not have permission to give XP.'
 reload-cmd-noperm: '&cYou do not have permission to use that command'
 invalid-cmd: '&cInvalid command'
-no-console-cmd: 'This command cannot be ran from the console'
+no-console-cmd: This command cannot be ran from the console
 files-reloaded: '&6EXPBank files have been reloaded'
 sign-removed: '&6EXPBank sign has been removed'
+must-be-survival: '&cYou must be in survival or adventure mode'
 
-#
-#   For Deposit and Withdraw prompts:
-#   The {amount} placeholder is used for the amount of XP the player is
-#   either depositing or withdrawing
-#
+prompt-cancel: '&cType /exit to exit, or complete the transaction'
 
-deposit-prompt: '&aEnter the amount of XP you want to deposit'
-deposit-prompt-success: '&a{amount} levels of XP were deposited in your account'
 deposit-prompt-positive: '&cYou must enter a positive amount of XP'
 deposit-prompt-whole: '&cYou must enter a whole number of XP'
 deposit-prompt-notenough: '&cYou do not have enough XP to deposit that amount'
-deposit-prompt-cancel: '&cType ''Cancel'' to exit, or complete the transaction'
 
-withdraw-prompt: '&aEnter the amount of XP you want to withdraw'
-withdraw-prompt-success: '&a{amount} levels of XP were withdrawn from your account'
 withdraw-prompt-positive: '&cYou must enter a positive number of XP'
 withdraw-prompt-whole: '&cYou must enter a whole number of XP'
 withdraw-prompt-notenough: '&cYou do not have enough XP to withdraw that amount'
-withdraw-prompt-cancel: '&cType ''Cancel'' to exit, or complete the transaction'
-
 #
 #   The {toplayer} placeholder is for the player getting the XP
 #   The {fromplayer} placeholder is for the player giving the XP
 #   The {giveamount} placeholder is the amount that {fromplayer} gave {toplayer}
 #
-
 give-prompt: '&aEnter the players name that you want to give XP to'
 give-prompt-notonline: '&c{toplayer} is not online right now'
-give-prompt-who: '&aHow many levels of XP do you want to give {toplayer}'
+give-prompt-who-points: '&aHow many EXP points do you want to give {toplayer}'
+give-prompt-who-bottles: '&aHow many Bottles o'' Enchanting do you want to give {toplayer}'
 give-prompt-cant: '&cYou cannot give yourself XP'
-give-prompt-positive: '&cYou must enter a positive amount of XP'
-give-prompt-whole: '&cYou must enter a whole number of XP'
+give-prompt-positive-points: '&cYou must enter a positive amount of Bottles'
+give-prompt-positive-bottles: '&cYou must enter a positive amount of EXP points'
+give-prompt-whole-points: '&cYou must enter a whole number of EXP points'
+give-prompt-whole-bottles: '&cYou must enter a whole number of Bottles'
 give-prompt-notenough: '&cYou do not have enough stored XP give that amount'
-give-prompt-cancel: '&cType ''Cancel'' to exit, or complete the transaction'
-give-prompt-to-donor: '&aYou just gave {toplayer} {giveamount} levels of XP'
-give-prompt-to-receiver: '&a{fromplayer} just gave you {giveamount} levels of XP'
+give-prompt-to-donor-points: '&aYou just gave {toplayer} {giveamount} EXP points'
+give-prompt-to-donor-bottles: '&aYou just gave {toplayer} {giveamount} Bottles o'' Enchanting'
+give-prompt-to-receiver-points: '&a{fromplayer} just gave you {giveamount} EXP points'
+give-prompt-to-receiver-bottles: '&a{fromplayer} just gave you {giveamount} Bottles o'' Enchanting'
