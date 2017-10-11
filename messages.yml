@@ -16,7 +16,7 @@ files-reloaded: '&6EXPBank files have been reloaded'
 sign-removed: '&6EXPBank sign has been removed'
 must-be-survival: '&cYou must be in survival or adventure mode'
 
-prompt-cancel: '&cType /exit to exit, or complete the transaction'
+prompt-cancel: '&cType exit to exit, or complete the transaction'
 
 deposit-prompt-positive: '&cYou must enter a positive amount of XP'
 deposit-prompt-whole: '&cYou must enter a whole number of XP'
