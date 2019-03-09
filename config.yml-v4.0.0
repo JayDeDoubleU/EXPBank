@@ -1,0 +1,44 @@
+##  Config for EXPBank v4.0.0
+
+##  DB type sqlite | mysql | yaml
+database-type: 'yaml'
+
+# Use the follow settings for MySQL databases only
+mysql:
+  host: '127.0.0.1'
+  user: 'user_name'
+  pass: 'password'
+  name: 'database_name'
+  port: '3306'
+
+sign-top-line: '[&aEXP-Bank&0]'
+
+expbank-title: '&9EXPBank'
+
+info-item:
+  id: BOOK
+  displayname: '&7Stored XP Info:'
+deposit-item:
+  id: GREEN_CONCRETE
+  displayname: '&aDeposit XP'
+withdraw-item:
+  id: RED_CONCRETE
+  displayname: '&cWithdraw XP'
+give-item:
+  id: BLUE_CONCRETE
+  displayname: '&9Give XP'
+
+##  Approx amount in levels to withdraw when player normal-clicks.
+##  When player shift-clicks it withdraws all their xp, this setting does not affect that.
+
+withdraw-amount: 5
+
+
+##  Change the type of XP given here
+##  give-type: 'points'
+##  give-type: 'bottles'
+##  When set to bottles, the EXP cost to give a bottle is 7 points each
+##  This is because the possible XP return from a bottle o enchanting is
+##  between 3 to 11 points, and 7 being the middle of that.
+
+give-type: 'points'
